@@ -1,55 +1,43 @@
-# auto-clicker-multi-window
+# Puppeteer Multi-Instance Button Clicker
 
 This script uses Puppeteer to open multiple instances of a webpage, find active buttons with a specific text, and click them alternately across multiple browser windows.
 
-Features
+## Features
+- Launches multiple Puppeteer instances (configurable number of windows)
+- Identifies and clicks only active buttons with the given text
+- Distributes button clicks across multiple instances alternately
+- Handles navigation and ensures successful execution
 
-Launches multiple Puppeteer instances (configurable number of windows)
+## Prerequisites
+- Node.js installed (LTS recommended)
+- Google Chrome installed
+- Puppeteer-core installed (`npm install puppeteer-core`)
 
-Identifies and clicks only active buttons with the given text
-
-Distributes button clicks across multiple instances alternately
-
-Handles navigation and ensures successful execution
-
-Prerequisites
-
-Node.js installed (LTS recommended)
-
-Google Chrome installed
-
-Puppeteer-core installed (npm install puppeteer-core)
-
-Installation
-
+## Installation
+```sh
 # Clone the repository
 git clone https://github.com/yourusername/puppeteer-multi-clicker.git
 cd puppeteer-multi-clicker
 
 # Install dependencies
 npm install
+```
 
-Configuration
+## Configuration
+- Set the **number of browser instances** inside the script.
+- Update the **Chrome executable path** in `chromePath`.
+- Modify `buttonText` to match the button you want to click.
 
-Set the number of browser instances inside the script.
-
-Update the Chrome executable path in chromePath.
-
-Modify buttonText to match the button you want to click.
-
-Usage
-
+## Usage
+```sh
 node script.js
+```
 
-Notes
+## Notes
+- The script checks for active buttons only before clicking.
+- Ensure the website does not have bot detection mechanisms that may block Puppeteer.
+- Adjust timeouts if needed for slower-loading pages.
 
-The script checks for active buttons only before clicking.
-
-Ensure the website does not have bot detection mechanisms that may block Puppeteer.
-
-Adjust timeouts if needed for slower-loading pages.
-
-License
-
+## License
 This project is open-source and available under the MIT License.
 
