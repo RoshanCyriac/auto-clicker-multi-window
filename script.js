@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer-core";
 
 // Config
-const chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const chromePath = "";
 const url = "your url";
 const buttonText = "your button text";
 const numWindows = 3; // Change this to open more/less windows
