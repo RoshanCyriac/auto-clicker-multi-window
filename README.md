@@ -10,7 +10,7 @@ This script uses Puppeteer to open multiple instances of a webpage, find active 
 
 ## Prerequisites
 - Node.js installed (LTS recommended)
-- Google Chrome installed.
+- Google Chrome installed
 - Puppeteer-core installed (`npm install puppeteer-core`)
 
 ## Installation
