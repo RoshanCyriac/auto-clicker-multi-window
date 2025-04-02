@@ -1,6 +1,6 @@
 # Puppeteer Multi-Instance Button Clicker
 
-This script uses Puppeteer to open multiple instances of a webpage, find active buttons with a specific text, and click them alternately across multiple browser windows..
+This script uses Puppeteer to open multiple instances of a webpage, find active buttons with a specific text, and click them alternately across multiple browser windows
 
 ## Features
 - Launches multiple Puppeteer instances (configurable number of windows)
