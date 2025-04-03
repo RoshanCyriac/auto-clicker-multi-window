@@ -5,7 +5,7 @@ This script uses Puppeteer to open multiple instances of a webpage, find active 
 ## Features
 - Launches multiple Puppeteer instances (configurable number of windows)
 - Identifies and clicks only active buttons with the given text.
-- Distributes button clicks across multiple instances alternately.
+- Distributes button clicks across multiple instances alternately
 - Handles navigation and ensures successful execution
 
 ## Prerequisites
